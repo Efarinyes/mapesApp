@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 interface House {
   title: string;
   description: string;
@@ -8,7 +9,9 @@ interface House {
 
 
 @Component({
+
   selector: 'page-properties',
+
   templateUrl: './properties-page.component.html',
   styleUrls: ['./properties-page.component.css']
 })
